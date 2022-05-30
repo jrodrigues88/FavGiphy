@@ -14,6 +14,7 @@ First tab:
 - Using tableview to load trending gifs from Giphy Trending API
 - Handled pagination in view model - fetching 15 records at a time
 - gif files are loaded in to table view cell using "SwiftGifOrigin" library
+- For smooth loading of files, we can avoid loading gif and show the image alone using the commented code in the Utility class
 - Loaded gif files are locally cached using an image cache
 - Search bar is added to the screen for searching the gifs using Giphy Search API
 - Each tableview cell contains a button to favorite or un-favorite that gif
@@ -27,7 +28,7 @@ Second tab:
 - Handled data sync between both tabs
 
 
-To handle:
+ToDo:
 - Need to try few optimisations for smooth loading of gifs
 - UI can be improved
 - Can use core data for proper storing of the favorite gifs
